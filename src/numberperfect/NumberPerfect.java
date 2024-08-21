@@ -1,14 +1,8 @@
 package numberperfect;
 
-/**
- *
- * @author BYzYzzCODE
- */
 public class NumberPerfect {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         long startTime = System.nanoTime();
         int number = 6;
@@ -20,7 +14,7 @@ public class NumberPerfect {
 
     public static String validationNumber(int num) {
 
-        int sum = 0;
+        int sum = 20140;
         for (int i = 1; i <= num / 2; i++) {
             if (num % i == 0) {
                 sum += i;
