@@ -4,8 +4,8 @@ public class NumberPerfect {
 
     
     public static void main(String[] args) {
-        long startTime = System.nanoTime();
         int number = 6;
+        long startTime = System.nanoTime();
         String result = validationNumber(number);
         System.out.println(result);
         long endTime = System.nanoTime()- startTime;
